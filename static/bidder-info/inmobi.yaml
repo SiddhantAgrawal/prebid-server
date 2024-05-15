@@ -13,7 +13,7 @@ capabilities:
       - banner
       - video
 userSync:
-  redirect:
+  iframe:
     url: "https://sync.inmobi.com/prebid?gdpr={{.GDPR}}&gdpr_consent={{.GDPRConsent}}&us_privacy={{.USPrivacy}}&redirect={{.RedirectURL}}"
     userMacro: "{ID5UID}"
 
